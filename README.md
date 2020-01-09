@@ -7,7 +7,7 @@
 **Working**
 
 fill the form</br>
-[INPUT FORM](inputForm.png)
+![INPUT FORM](inputForm.png)
 
 Get the graph</br>
-[OUTPUT GRAPH](outputGraph.png)
+![OUTPUT GRAPH](outputGraph.png)
