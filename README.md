@@ -6,8 +6,8 @@
 
 **Working**
 
-fill the form
-[SCREENSHOT](inputForm.png)
+fill the form</br>
+[INPUT FORM](inputForm.png)
 
-Get the graph
-[SCREENSHOT](outputGraph.png)
+Get the graph</br>
+[OUTPUT GRAPH](outputGraph.png)
