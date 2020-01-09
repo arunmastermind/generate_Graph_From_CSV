@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <SCRIPT language="javascript">
+    function add(type) {
+        //Create an input type dynamically.
+        var element = document.createElement("input");
+
+        var count = document.getElementById('aa').value;
+
+        //Assign different attributes to the element.
+        element.setAttribute("type", type);
+        element.setAttribute("placeholder", "row " + count);
+        element.setAttribute("name", "row_" + count);
+
+        var foo = document.getElementById("fooBar");
+
+        var linebreak = document.createElement('br');
+        foo.appendChild(linebreak);
+
+        //Append the element in page (in span).
+        foo.appendChild(element);
+
+
+    }
+</SCRIPT>
+</head>
+<body>
+<form action="/submitted" method="post">
+    Name of the CSV: <input type="text" name="filename", required="required"><br>
+    No. Of Y-axis: <input type="number" id = "aa", name="ycount", required="required", min="1", value="1", onclick="add('text')"><br>
+    Name of Y-axis: <br><input type="text" name="row_1", required="required", placeholder="row 1">
+    <span id="fooBar">&nbsp;</span><br>
+    Name Of X-axis: <input type="text" name="xaxis", required="required"><br>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
