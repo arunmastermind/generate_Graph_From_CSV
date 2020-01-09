@@ -7,7 +7,7 @@
 **Working**
 
 fill the form
-[SCREENSHOT]()
+[SCREENSHOT](inputForm.png)
 
 Get the graph
-[SCREENSHOT]()
+[SCREENSHOT](outputGraph.png)
